@@ -9,42 +9,55 @@
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* SoftModemTerminalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SoftModemTerminalAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
 		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
 		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
-		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
-		7000540711E5FD1200ED71EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7000540611E5FD1200ED71EB /* AVFoundation.framework */; };
 		701604BD12007C9E00219742 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 701604BC12007C9E00219742 /* InfoPlist.strings */; };
 		702E1D02118D265F00141E6A /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E1CF5118D265F00141E6A /* AudioQueueObject.m */; };
 		702E1D03118D265F00141E6A /* AudioSignalAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E1CF7118D265F00141E6A /* AudioSignalAnalyzer.m */; };
 		702E1D04118D265F00141E6A /* AudioSignalGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E1CF9118D265F00141E6A /* AudioSignalGenerator.m */; };
 		702E1D05118D265F00141E6A /* FSKRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 702E1CFB118D265F00141E6A /* FSKRecognizer.mm */; };
 		702E1D07118D265F00141E6A /* MultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E1D00118D265F00141E6A /* MultiDelegate.m */; };
-		702E1D1D118D270B00141E6A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702E1D1C118D270B00141E6A /* AudioToolbox.framework */; };
 		7040352411FF1E110092C795 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7040352311FF1E110092C795 /* icon.png */; };
 		7061347B11F870BA00E36A4D /* FSKSerialGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7061347A11F870BA00E36A4D /* FSKSerialGenerator.mm */; };
+		CCD67CAB176A527100C6E59E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCD67CA9176A527100C6E59E /* InfoPlist.strings */; };
+		CCD67CB3176A527100C6E59E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD67CB2176A527100C6E59E /* Default.png */; };
+		CCD67CB5176A527100C6E59E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD67CB4176A527100C6E59E /* Default@2x.png */; };
+		CCD67CB7176A527100C6E59E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD67CB6176A527100C6E59E /* Default-568h@2x.png */; };
+		CCD67CBC176A52CA00C6E59E /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E1CF5118D265F00141E6A /* AudioQueueObject.m */; };
+		CCD67CBD176A52CA00C6E59E /* AudioSignalAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E1CF7118D265F00141E6A /* AudioSignalAnalyzer.m */; };
+		CCD67CBE176A52CA00C6E59E /* AudioSignalGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E1CF9118D265F00141E6A /* AudioSignalGenerator.m */; };
+		CCD67CBF176A52CA00C6E59E /* FSKRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 702E1CFB118D265F00141E6A /* FSKRecognizer.mm */; };
+		CCD67CC0176A52CA00C6E59E /* FSKSerialGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7061347A11F870BA00E36A4D /* FSKSerialGenerator.mm */; };
+		CCD67CC1176A52CA00C6E59E /* MultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E1D00118D265F00141E6A /* MultiDelegate.m */; };
+		CCD67CC2176A52CA00C6E59E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
+		CCD67CC3176A52CA00C6E59E /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		CCD67CC4176A52CA00C6E59E /* SoftModemTerminalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SoftModemTerminalAppDelegate.m */; };
+		CCD67CC5176A52CA00C6E59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		CCD67CC6176A52E500C6E59E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
+		CCD67CC7176A52E500C6E59E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
+		CCD67CC8176A52E500C6E59E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
+		CCD67CCA176A52F700C6E59E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD67CC9176A52F700C6E59E /* AVFoundation.framework */; };
+		CCD67CCC176A52FB00C6E59E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD67CCB176A52FB00C6E59E /* AudioToolbox.framework */; };
+		CCD67CCE176A530100C6E59E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD67CCD176A530100C6E59E /* UIKit.framework */; };
+		CCD67CD0176A530700C6E59E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD67CCF176A530700C6E59E /* Foundation.framework */; };
+		CCD67CD2176A530C00C6E59E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD67CD1176A530C00C6E59E /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* SoftModemTerminalAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftModemTerminalAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* SoftModemTerminalAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftModemTerminalAppDelegate.m; sourceTree = "<group>"; };
-		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
 		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = Classes/FlipsideViewController.h; sourceTree = "<group>"; };
 		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/FlipsideViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SoftModemTerminal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftModemTerminal_Prefix.pch; sourceTree = "<group>"; };
-		7000540611E5FD1200ED71EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		701604B512007C4100219742 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		701604BE12007CA400219742 /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		702E1CF4118D265F00141E6A /* AudioQueueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioQueueObject.h; path = Classes/AudioQueueObject.h; sourceTree = "<group>"; };
@@ -60,15 +73,25 @@
 		702E1CFF118D265F00141E6A /* MultiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiDelegate.h; path = Classes/MultiDelegate.h; sourceTree = "<group>"; };
 		702E1D00118D265F00141E6A /* MultiDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiDelegate.m; path = Classes/MultiDelegate.m; sourceTree = "<group>"; };
 		702E1D01118D265F00141E6A /* PatternRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatternRecognizer.h; path = Classes/PatternRecognizer.h; sourceTree = "<group>"; };
-		702E1D1C118D270B00141E6A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		702E1D58118D287600141E6A /* CharReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharReceiver.h; path = Classes/CharReceiver.h; sourceTree = "<group>"; };
 		7040352311FF1E110092C795 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		705809F711FDCC2C000F6C1D /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		7061347A11F870BA00E36A4D /* FSKSerialGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FSKSerialGenerator.mm; path = Classes/FSKSerialGenerator.mm; sourceTree = "<group>"; };
 		7061347C11F870DA00E36A4D /* FSKByteQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKByteQueue.h; path = Classes/FSKByteQueue.h; sourceTree = "<group>"; };
 		70BA824C11BA507600005CF1 /* AcousticMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcousticMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D1A3A71192DE50009B9356 /* FSKModemConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKModemConfig.h; path = Classes/FSKModemConfig.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SoftModemTerminal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SoftModemTerminal-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CCD67CA2176A527100C6E59E /* syncmodem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syncmodem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD67CA8176A527100C6E59E /* syncmodem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "syncmodem-Info.plist"; sourceTree = "<group>"; };
+		CCD67CAA176A527100C6E59E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCD67CAE176A527100C6E59E /* syncmodem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "syncmodem-Prefix.pch"; sourceTree = "<group>"; };
+		CCD67CB2176A527100C6E59E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CCD67CB4176A527100C6E59E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CCD67CB6176A527100C6E59E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CCD67CC9176A52F700C6E59E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCD67CCB176A52FB00C6E59E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		CCD67CCD176A530100C6E59E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CCD67CCF176A530700C6E59E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCD67CD1176A530C00C6E59E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +99,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
-				702E1D1D118D270B00141E6A /* AudioToolbox.framework in Frameworks */,
-				7000540711E5FD1200ED71EB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD67C9F176A527100C6E59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD67CD2176A530C00C6E59E /* CoreGraphics.framework in Frameworks */,
+				CCD67CD0176A530700C6E59E /* Foundation.framework in Frameworks */,
+				CCD67CCE176A530100C6E59E /* UIKit.framework in Frameworks */,
+				CCD67CCC176A52FB00C6E59E /* AudioToolbox.framework in Frameworks */,
+				CCD67CCA176A52F700C6E59E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				70BA824C11BA507600005CF1 /* AcousticMessage.app */,
+				CCD67CA2176A527100C6E59E /* syncmodem.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,9 +163,9 @@
 				080E96DDFE201D6D7F000001 /* Application Delegate */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				CCD67CA6176A527100C6E59E /* syncmodem */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				705809F711FDCC2C000F6C1D /* Entitlements.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -164,11 +195,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7000540611E5FD1200ED71EB /* AVFoundation.framework */,
-				702E1D1C118D270B00141E6A /* AudioToolbox.framework */,
-				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
-				1D30AB110D05D00D00671497 /* Foundation.framework */,
-				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+				CCD67CD1176A530C00C6E59E /* CoreGraphics.framework */,
+				CCD67CCF176A530700C6E59E /* Foundation.framework */,
+				CCD67CCD176A530100C6E59E /* UIKit.framework */,
+				CCD67CCB176A52FB00C6E59E /* AudioToolbox.framework */,
+				CCD67CC9176A52F700C6E59E /* AVFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,6 +228,27 @@
 			name = Audio;
 			sourceTree = "<group>";
 		};
+		CCD67CA6176A527100C6E59E /* syncmodem */ = {
+			isa = PBXGroup;
+			children = (
+				CCD67CA7176A527100C6E59E /* Supporting Files */,
+			);
+			path = syncmodem;
+			sourceTree = "<group>";
+		};
+		CCD67CA7176A527100C6E59E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD67CA8176A527100C6E59E /* syncmodem-Info.plist */,
+				CCD67CA9176A527100C6E59E /* InfoPlist.strings */,
+				CCD67CAE176A527100C6E59E /* syncmodem-Prefix.pch */,
+				CCD67CB2176A527100C6E59E /* Default.png */,
+				CCD67CB4176A527100C6E59E /* Default@2x.png */,
+				CCD67CB6176A527100C6E59E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,6 +269,23 @@
 			productReference = 70BA824C11BA507600005CF1 /* AcousticMessage.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CCD67CA1176A527100C6E59E /* syncmodem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD67CBB176A527100C6E59E /* Build configuration list for PBXNativeTarget "syncmodem" */;
+			buildPhases = (
+				CCD67C9E176A527100C6E59E /* Sources */,
+				CCD67C9F176A527100C6E59E /* Frameworks */,
+				CCD67CA0176A527100C6E59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = syncmodem;
+			productName = syncmodem;
+			productReference = CCD67CA2176A527100C6E59E /* syncmodem.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,6 +293,7 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SoftModemTerminal" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -238,6 +308,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* AcousticMessage */,
+				CCD67CA1176A527100C6E59E /* syncmodem */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +323,20 @@
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
 				7040352411FF1E110092C795 /* icon.png in Resources */,
 				701604BD12007C9E00219742 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD67CA0176A527100C6E59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD67CC6176A52E500C6E59E /* FlipsideView.xib in Resources */,
+				CCD67CC7176A52E500C6E59E /* MainView.xib in Resources */,
+				CCD67CC8176A52E500C6E59E /* MainWindow.xib in Resources */,
+				CCD67CAB176A527100C6E59E /* InfoPlist.strings in Resources */,
+				CCD67CB3176A527100C6E59E /* Default.png in Resources */,
+				CCD67CB5176A527100C6E59E /* Default@2x.png in Resources */,
+				CCD67CB7176A527100C6E59E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +360,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CCD67C9E176A527100C6E59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD67CBC176A52CA00C6E59E /* AudioQueueObject.m in Sources */,
+				CCD67CBD176A52CA00C6E59E /* AudioSignalAnalyzer.m in Sources */,
+				CCD67CBE176A52CA00C6E59E /* AudioSignalGenerator.m in Sources */,
+				CCD67CBF176A52CA00C6E59E /* FSKRecognizer.mm in Sources */,
+				CCD67CC0176A52CA00C6E59E /* FSKSerialGenerator.mm in Sources */,
+				CCD67CC1176A52CA00C6E59E /* MultiDelegate.m in Sources */,
+				CCD67CC2176A52CA00C6E59E /* MainViewController.m in Sources */,
+				CCD67CC3176A52CA00C6E59E /* FlipsideViewController.m in Sources */,
+				CCD67CC4176A52CA00C6E59E /* SoftModemTerminalAppDelegate.m in Sources */,
+				CCD67CC5176A52CA00C6E59E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -287,6 +389,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		CCD67CA9176A527100C6E59E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD67CAA176A527100C6E59E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -294,7 +404,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/Desktop/ghost_trunk/SoftModemTerminal/Entitlements.plist";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yusuke sasaki (W7WQW7YBRV)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -311,7 +420,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/Desktop/ghost_trunk/SoftModemTerminal/Entitlements.plist";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yusuke sasaki (W7WQW7YBRV)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -344,7 +452,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/Desktop/ghost_trunk/SoftModemTerminal/Entitlements.plist";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: yusuke sasaki";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -389,6 +496,94 @@
 			};
 			name = Release;
 		};
+		CCD67CB8176A527100C6E59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "syncmodem/syncmodem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "syncmodem/syncmodem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCD67CB9176A527100C6E59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "syncmodem/syncmodem-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "syncmodem/syncmodem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCD67CBA176A527100C6E59E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "syncmodem/syncmodem-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "syncmodem/syncmodem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +606,15 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		CCD67CBB176A527100C6E59E /* Build configuration list for PBXNativeTarget "syncmodem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD67CB8176A527100C6E59E /* Debug */,
+				CCD67CB9176A527100C6E59E /* Release */,
+				CCD67CBA176A527100C6E59E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
